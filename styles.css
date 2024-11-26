@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lyrics, .translation {
+    margin-bottom: 20px;
+}
+
+.verse, .chorus {
+    margin-bottom: 15px;
+}
+
+.verse h2, .chorus h2, .translation h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.translation {
+    display: none;
+    background-color: #fafafa;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.translation .verse h3, .translation .chorus h3 {
+    color: #333;
+}
+
+.audio-player {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Existing styles... */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    button {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .lyrics, .translation {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.2em;
+    }
+    
+    button {
+        font-size: 12px;
+    }
+    
+    .lyrics, .translation {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.verse:hover {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    padding-left: 10px;
+}
