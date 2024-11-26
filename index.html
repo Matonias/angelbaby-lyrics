@@ -9,14 +9,21 @@
 <body>
     <div class="container">
         <h1>Angelbaby - You've Got Your Socks On Backwards</h1>
+        
+        <!-- Dark Mode Toggle -->
+        <button id="toggleDarkMode">Enable Dark Mode</button>
+        
+        <!-- Audio Player -->
         <div class="audio-player">
             <iframe style="border: 0; width: 100%; height: 166px;" 
-            src="https://bandcamp.com/EmbeddedPlayer/track=123456789/size=large/bgcol=ffffff/linkcol=0687f5/" 
+            src="https://bandcamp.com/EmbeddedPlayer/track=YOUR_TRACK_ID/size=large/bgcol=ffffff/linkcol=0687f5/" 
             seamless>
             </iframe>
         </div>
-        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=611615112/size=small/bgcol=ffffff/linkcol=0687f5/track=800727496/transparent=true/" seamless><a href="https://angelbabyband.bandcamp.com/album/anyiquangin">Anyiquangin by Angel Baby</a></iframe>
-
+        
+        <!-- Search Lyrics -->
+        <input type="text" id="searchLyrics" placeholder="Search lyrics...">
+        
         <button id="toggleTranslation">Show Translation</button>
         <div class="lyrics">
             <div class="verse" id="verseA">
